@@ -7,7 +7,7 @@ ENV ARCHIVE https://s3.amazonaws.com/name.abuchen.portfolio/${VERSION}/Portfolio
 ENV DISPLAY=:0
 
 RUN apt-get update \
-    && apt-get -y --no-install-recommends install libgtk2.0-0 libcanberra-gtk-module \
+    && apt-get -y --no-install-recommends install libgtk2.0-0 libcanberra-gtk-module libwebkitgtk-1.0.0 \
     && rm -rf /var/lib/apt/lists/*
 
 RUN useradd -ms /bin/bash portfolio && mkdir /data && chown portfolio /opt /data
