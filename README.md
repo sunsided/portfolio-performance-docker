@@ -1,6 +1,6 @@
-# Portfolio Performance
+# Portfolio Performance 0.26.2
 
-This is a dockerized version of [Portfolio Performance].
+This is a dockerized version of [Portfolio Performance]; it requires an X11 server to run.
 
 You can run it locally by executing `run.sh`, which is essentially a shortcut for
 
