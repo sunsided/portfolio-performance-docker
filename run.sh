@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-CONTAINER=sunside/portfolio-performance
+IMAGE=sunside/portfolio-performance
 
 docker run \
 	--rm -it \
-	--name $CONTAINER \
+	--name portfolio-performance \
 	-e DISPLAY=$DISPLAY \
 	-v /tmp/.X11-unix:/tmp/.X11-unix \
 	-v $(pwd):/data \
-	$CONTAINER
+	$IMAGE

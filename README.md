@@ -7,6 +7,7 @@ You can run it locally by executing `run.sh`, which is essentially a shortcut fo
 ```bash
 docker run \
         --rm -it \
+	--name portfolio-peformance \
         -e DISPLAY=$DISPLAY \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
         -v $(pwd):/data \
