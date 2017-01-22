@@ -1,5 +1,5 @@
 #/usr/bin/env bash
 
-CONTAINER=portfolio-performance
+CONTAINER=sunside/portfolio-performance
 
 docker build -t $CONTAINER .
