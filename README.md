@@ -1,6 +1,6 @@
 # Portfolio Performance 0.48.1
 
-This is a dockerized version of [Portfolio Performance]; it requires an X11 server to run.
+This is a dockerized version of [Portfolio Performance] ([here] on GitHub); it requires an X11 server to run.
 
 You can run it locally by executing `run.sh`, which is essentially a shortcut for
 
@@ -18,3 +18,4 @@ To build the image locally, run `build.sh` instead.
 
 
 [Portfolio Performance]: http://www.portfolio-performance.info/portfolio/
+[here]: https://github.com/buchen/portfolio
