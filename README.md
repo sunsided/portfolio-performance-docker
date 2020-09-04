@@ -11,7 +11,7 @@ docker run \
         -e DISPLAY=$DISPLAY \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
         -v $(pwd):/data \
-        sunside/portfolio-performance
+        sunside/portfolio-performance:0.48.1
 ```
 
 To build the image locally, run `build.sh` instead.
