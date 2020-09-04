@@ -9,7 +9,7 @@ RUN apt-get update \
     libgtk2.0-0 libswt-gtk* libcanberra-gtk-module libwebkitgtk-3.0.0 \
     && rm -rf /var/lib/apt/lists/*
 
-ARG VERSION=0.47.0
+ARG VERSION=0.48.1
 ENV ARCHIVE=https://github.com/buchen/portfolio/releases/download/${VERSION}/PortfolioPerformance-${VERSION}-linux.gtk.x86_64.tar.gz
 
 RUN useradd -ms /bin/bash portfolio && mkdir /data && chown portfolio /opt /data
