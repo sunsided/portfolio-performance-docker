@@ -1,5 +1,8 @@
 #/usr/bin/env bash
 
-CONTAINER=sunside/portfolio-performance
+set -euo pipefail
 
-docker build -t $CONTAINER .
+VERSION=${VERSION:-0.47.0}
+CONTAINER=sunside/portfolio-performance:${VERSION}
+
+docker build --build-arg VERSION="${VERSION}" -t ${CONTAINER} .

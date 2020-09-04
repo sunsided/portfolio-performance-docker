@@ -1,2 +1,7 @@
-*.xml
+.git/
 .git*
+Dockerfile
+*.xml
+*.md
+*.sh
+*.settings
