@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-VERSION=${VERSION:-0.48.1}
+VERSION=${VERSION:-0.47.0}
 IMAGE=sunside/portfolio-performance:${VERSION}
 
 docker run \

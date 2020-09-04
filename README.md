@@ -1,4 +1,4 @@
-# Portfolio Performance 0.48.1
+# Portfolio Performance 0.47.0
 
 This is a dockerized version of [Portfolio Performance]; it requires an X11 server to run.
 
