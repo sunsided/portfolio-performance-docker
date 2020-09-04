@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-IMAGE=sunside/portfolio-performance
+set -euo pipefail
+
+VERSION=${VERSION:-0.48.1}
+IMAGE=sunside/portfolio-performance:${VERSION}
 
 docker run \
 	--rm -it \
